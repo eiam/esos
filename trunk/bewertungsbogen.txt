@@ -1,0 +1,72 @@
+Bewertungsbogen für den Testlauf des Elternsprechabends am 21. November
+
+
+
+Allgemeine Fragen zur Software
+
+Wie zufrieden sind Sie mit unserer Benutzeroberfläche im Allgemeinen?
+Sehr unzufrieden [1, 2, 3, 4, 5] sehr zufrieden
+
+Haben Sie Kritik oder Vorschläge zur Veränderung an dieser Software?
+[Textfeld]
+
+Haben sie irgendwelche Bedenken bezüglich des Schutzes Ihrer Daten?
+[Textfled]
+
+Welchen Internet-Browser haben Sie benutzt?
+[Textfeld]
+
+Würden Sie die Software wieder verwenden?
+[ja/nein]
+
+
+Fragen zur Bedienung
+
+War die Software intuitiv zu bedienen?
+[ja/nein]
+
+Wie finden sie die Vorgehensweise zur Anmeldung beim Portal?
+[Textfeld]
+
+„Haben sie Einarbeitungszeit benötigt, oder haben sie sofort verstanden, „
+
+„War etwas unverständlich?“
+
+Sind ihnen Fehlfunktionen oder Ähnliches aufgefallen?
+Text
+
+Wie finden Sie die Vorgehensweise für die Terminauswahl?
+[1-5]
+
+
+Würden Sie etwas an dieser Vorgehensweise ändern?
+text
+
+War die Benutzeroberfläche für sie immer übersichtlich aufgebaut und kamen sie gut damit zurecht?
+[1-5]
+
+Frage zur Gestaltung
+
+Finden Sie die Gestaltung der Oberfläche ansprechend?
+15
+
+Gab es Grafiken, die Sie als störend empfunden haben?
+
+Gab es sonstige unschöne Formatierungen, und wenn ja, welche?
+
+
+Fragen zur Dokumentation
+
+Wie hilfreich fanden sie die Beschreibungen zu den einzelnen Schritten?
+1-5
+
+Kamen sie mit der Dokumentation gut zurecht?
+ja/nein
+
+Hätten sie etwas mehr Hilfe bei der Terminauswahl oder der Anmeldung benötigt?
+ja/nein
+
+An welchen Stellen gibt es ihrer Meinung nach Verbesserungbedarf?
+[Textfeld]
+
+

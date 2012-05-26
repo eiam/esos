@@ -1,0 +1,48 @@
+#nav {
+	font: normal 14.4px/100% "Ubuntu", Arial, Helvetica, sans-serif;
+	padding: 7px 0 0;
+	background: #7d7d7d url(gradient.png) repeat-x 0 -110px;
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	list-style: none;
+}
+
+#nav li {
+	margin: 0 5px;
+	padding: 0 0 8px;	
+}
+
+/* main level link */
+#nav a {
+	font-weight: bold;
+	color: #e7e5e5;
+	text-decoration: none;
+	display: block;
+	padding: 2px 8px;
+	margin: 0;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+	text-shadow: 0 1px 1px rgba(0,0,0, .3);
+}
+
+/* main level link hover */
+#nav .current a, #nav li:hover > a {
+	background: #666 url(gradient.png) repeat-x 0 -40px;
+	color: #444;
+	outline: none;
+
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	box-shadow: 0 1px 1px rgba(0,0,0, .2);
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);
+}

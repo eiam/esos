@@ -1,0 +1,4 @@
+DirectoryIndex index index.php index.html
+
+ErrorDocument 404 /404.php
+

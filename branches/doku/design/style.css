@@ -1,0 +1,279 @@
+@namespace "http://www.w3.org/1999/xhtml";
+
+body {
+  margin: 0;
+}
+
+body, input, select, textarea {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline-style: dashed;
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-shadow: 1px 1px 0 #aaa;
+}
+
+h2 {
+  font-size: 20px;
+  color: #999;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #666;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+img {
+  border: 0;
+}
+
+table {
+  background: #ccc;
+  margin: 0 10px 0 10px;
+  border: #ccc 0 none;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border-spacing: 0;
+}
+
+table th {
+  padding: 4px 10px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+table td {
+  background: #fff;
+  margin: 0;
+  padding: 2px 10px 4px 10px;
+  text-align: left;
+}
+
+table tbody:first-child tr:nth-child(odd) td, table tbody:nth-child(2) tr:nth-child(even) td {
+  background: #eee;
+}
+
+table tbody:first-child tr:first-child td:first-child {
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+table tbody:first-child tr:first-child td:last-child {
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+table tbody:first-child tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+	
+table tbody:first-child tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mceEditor table {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+table.faecher input[type=text] {
+  background-color: transparent;
+  border: none;
+  background: url("edit.png") no-repeat scroll 7px 7px;
+  padding-left: 28px;
+  margin-left: -5px;
+  margin-right: -1em;
+}
+
+table.faecher td:first-child input[type=text] {
+  width: 10em;
+}
+
+table.faecher td:nth-child(2) input[type=text] {
+  width: 4em;
+}
+
+#header {
+  padding: 50px 0 10px 30px;
+  background-image: url(background.png);
+  max-height: 30px;
+  background-position: top;
+  background-color: rgb(28,110,25);
+  border-bottom: 3px solid rgb(204, 153, 68);
+  color: white;
+}
+
+#header a, #header a:visited {
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#content {
+  margin: 0 30px 14px 0;
+  padding: 10px;
+  padding-bottom: 0;
+  overflow: auto;
+}
+
+#menu {
+  font: normal 14.4px/normal "Ubuntu", Arial, Helvetica, sans-serif;
+  color: #666;
+  margin-left: 10px;
+  margin-right: 20px;
+  max-width: 140px;
+  float: left;
+  min-width: 1em;
+  min-height: 1em;
+}
+
+#user {margin-top:11px; margin-left: 10px; }
+#user:before { content:url(user.png)" "; }
+
+#print:before, .print:before { content:url(print-document.png)" "; }
+#print a, #print a:visited, .print a, .print a:visited { text-decoration: none; }
+
+#php-errors {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+#meine, #andere {
+  width: 785px;
+}
+
+.php-error {
+  opacity: 0.9;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 10px;
+  color: #D8000C;
+  background-color: #FFBABA;
+  border-radius: 10px;
+}
+
+.warning {
+  opacity: 0.9;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #D8000C;
+  background-color: #FFBABA;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.✓ { color: green; text-decoration: none; }
+.× { color: red; text-decoration: none; }
+
+input[type=text], input[type=password], input[type=email] {
+  display: inline-block;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom: solid 1px #777777;
+  border-left-style: none;
+  padding: 0.15em;
+  width: 20em;
+}
+
+#tag {
+  width: 10em;
+}
+
+input[type=password] {
+	color: black;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+label + * {
+	margin-left: 0.5em;
+}
+
+label {
+  display: inline-block;
+  width: 8em;
+  font-weight: bold;
+}
+
+textarea {
+  border: solid 1px #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 40em;
+  height: 10em;
+}
+
+.right, .rightfloat {
+  float: right;
+}
+
+.right + * {
+	clear: right;
+}
+
+.bigaddbutton {
+	appearance: none;
+	border: none;
+	background-color: white;
+	background-image: url(add.png);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+	background-position: 0 center;
+	color: blue;
+	cursor: pointer;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.ajaxstatus {
+	width: 20px;
+}
